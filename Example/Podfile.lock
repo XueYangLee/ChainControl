@@ -1,5 +1,5 @@
 PODS:
-  - ChainControl (0.1.0)
+  - ChainControl (1.0.0)
 
 DEPENDENCIES:
   - ChainControl (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ChainControl: 448a022555fe960cb928f3f8abaf8ad3b90d27d0
+  ChainControl: 6c7e9431d7655f57b1b8da9d0712948078454112
 
-PODFILE CHECKSUM: 3965e5708477a2c6a77b39769b867afb741d1287
+PODFILE CHECKSUM: 235b4c288927720e2adeeae5df7d6c2df8ae0a89
 
 COCOAPODS: 1.12.1

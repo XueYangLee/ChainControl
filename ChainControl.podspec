@@ -8,18 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChainControl'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ChainControl.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.version          = '1.0.0'
+  s.summary          = 'Swift基础控件UILabel、UIButton、UITextField、 UITextView、UIImageView、UIView链式写法，简化代码'
 
   s.homepage         = 'https://github.com/XueYangLee/ChainControl'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,7 +18,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/XueYangLee/ChainControl.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ChainControl/**/*'
   
