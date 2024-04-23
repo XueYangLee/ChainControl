@@ -24,21 +24,21 @@ pod 'ChainControl'
 #### 代码比对示例
 - 原生示例
 ```
-        let btn = UIButton(frame: CGRect(x: 10, y: 200, width: 50, height: 50))
-        btn.setTitle("button", for: .normal)
-        btn.setTitleColor(.white, for: .normal)
-        btn.titleLabel?.font = .systemFont(ofSize: 16)
-        btn.backgroundColor = .blue
-        btn.layer.shadowColor = UIColor.gray.cgColor
-        btn.layer.shadowOpacity = 1
-        btn.layer.shadowOffset = CGSize(width: 1, height: 1)
-        btn.layer.shadowRadius = 2
-        self.view.addSubview(btn)
+let btn = UIButton(frame: CGRect(x: 10, y: 200, width: 50, height: 50))
+btn.setTitle("button", for: .normal)
+btn.setTitleColor(.white, for: .normal)
+btn.titleLabel?.font = .systemFont(ofSize: 16)
+btn.backgroundColor = .blue
+btn.layer.shadowColor = UIColor.gray.cgColor
+btn.layer.shadowOpacity = 1
+btn.layer.shadowOffset = CGSize(width: 1, height: 1)
+btn.layer.shadowRadius = 2
+self.view.addSubview(btn)
 ```
 
 - ChainControl示例
 ```
-        let btnExample = UIButton(frame: CGRect(x: 10, y: 100, width: 50, height: 50)).ctrl_title("button").ctrl_titleColor(.white).ctrl_font(.systemFont(ofSize: 16)).ctrl_backgroundColor(.blue).ctrl_shadow(color: .gray)
-        self.view.addSubview(btnExample)
+let btnExample = UIButton(frame: CGRect(x: 10, y: 100, width: 50, height: 50)).ctrl_title("button").ctrl_titleColor(.white).ctrl_font(.systemFont(ofSize: 16)).ctrl_backgroundColor(.blue).ctrl_shadow(color: .gray)
+self.view.addSubview(btnExample)
 ```
 
