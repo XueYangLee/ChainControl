@@ -1,0 +1,6 @@
+framework module ChainControl {
+  umbrella header "ChainControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

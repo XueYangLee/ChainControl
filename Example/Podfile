@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '12.0'
 
 target 'ChainControl_Example' do
   pod 'ChainControl', :path => '../'
@@ -8,6 +8,5 @@ target 'ChainControl_Example' do
   target 'ChainControl_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
   end
 end

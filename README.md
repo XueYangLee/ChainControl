@@ -13,12 +13,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-ChainControl is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+- pods导入
 
-```ruby
+```
 pod 'ChainControl'
 ```
+
+- 手动导入
+直接拖拽 `ChainControl`文件夹至你的项目
+
 
 ## Author
 

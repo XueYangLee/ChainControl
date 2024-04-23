@@ -1,0 +1,6 @@
+framework module Pods_ChainControl_Example {
+  umbrella header "Pods-ChainControl_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
